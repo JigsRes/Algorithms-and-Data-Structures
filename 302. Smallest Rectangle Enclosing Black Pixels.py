@@ -1,5 +1,3 @@
-
-
 class Solution(object):
     def minArea(self, image, x, y):
         if not image:

@@ -1,4 +1,3 @@
-
 class Solution(object):
     def maxVacationDays(self, flights, days):
         num_weeks= len(days[0])

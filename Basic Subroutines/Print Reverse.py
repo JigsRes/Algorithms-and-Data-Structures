@@ -1,3 +1,4 @@
+#Given a string print it in reverse
 def printreverse(string, i):
     if i>len(string)-1:
         return

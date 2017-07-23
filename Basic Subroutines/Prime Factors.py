@@ -1,3 +1,4 @@
+#Method that returns all the prime factors of a positive integer
 def prime_factors(n):
     i = 2
     factors = []
