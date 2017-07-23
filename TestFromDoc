@@ -1,0 +1,16 @@
+class Solution(object):
+    def reverseString(self, string, i):
+        if (i == len(string)):
+            return
+        self.reverseString(string, i + 1)
+        print(string[i]),
+
+
+obj=Solution()
+obj.reverseString("Hello", 0)
+
+a=1
+b=2
+print "{} and {}".format(a,b)
+
+print "%02d is a and %02.2d is b" % (a,b)
