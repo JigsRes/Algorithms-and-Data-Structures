@@ -9,7 +9,6 @@ print one_line_generator
 #using map+lambda
 
 sqaured_list_using_map= map(lambda n:n*n,  my_list)
-
 print sqaured_list_using_map
 
 filter_using_lambda= filter(lambda n:n>2, my_list)
